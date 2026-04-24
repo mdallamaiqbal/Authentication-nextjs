@@ -16,7 +16,7 @@ const SignIn = () => {
             email: userData.email,
             password: userData.password,
             rememberMe: true,
-            callbackURL: '/'
+            callbackURL: '/dashboard'
         })
         console.log('sign in response:', { data, error })
     }
